@@ -1,0 +1,35 @@
+@import "./scss/theme.scss";
+
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat-regular", sans-serif;
+  background-image: url("/assets/images/fondoApp.jpg");
+  background-repeat: no-repeat;
+  @media screen and (max-width: 375px) {
+    background-image: url("/assets/images/fondoApp.jpg");
+  }
+}
+
+.mat-form-field-underline {
+  display: none;
+}
+
+.mat-form-field-wrapper {
+  padding: 0;
+}
+
+.icon-check {
+  border-radius: 90px;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}

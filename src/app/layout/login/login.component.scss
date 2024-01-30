@@ -1,0 +1,56 @@
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+mat-label, button, mat-error {
+  font-family: "Montserrat-regular", sans-serif;
+}
+
+button.mat-raised-button {
+  height: auto;
+  border-radius: 22px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  padding: 0.3em 1em;
+  font-family: "Montserrat-medium", sans-serif;
+ }
+
+ button.mat-raised-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  color: black;
+}
+
+.custom-login-btn {
+  background-color: #007bff; /* Azul */
+  color: white;
+}
+
+.custom-signup-btn {
+  background-color: #28a745; /* Verde */
+  color: white;
+}
+
+.custom-google-btn {
+  background-color: #dc3545; /* Rojo */
+  color: white;
+}
+
+.custom-login-btn, .custom-signup-btn, .custom-google-btn {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-login-btn:hover {
+  background-color: #0056b3; /* Un tono de azul más oscuro */
+}
+
+.custom-signup-btn:hover {
+  background-color: #1e7e34; /* Un tono de verde más oscuro */
+}
+
+.custom-google-btn:hover {
+  background-color: #c82333; /* Un tono de rojo más oscuro */
+}

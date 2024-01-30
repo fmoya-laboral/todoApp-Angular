@@ -1,0 +1,101 @@
+mat-card {
+  margin-top: 0.5rem;
+  padding: 0;
+  font-family: "Montserrat-regular", sans-serif;
+}
+
+span.completed {
+  text-decoration: line-through;
+  padding-left: 6px;
+}
+
+mat-list-item {
+  position: relative;
+  font-family: "Montserrat-regular", sans-serif;
+  border-bottom: 1px solid #dfdfdf;
+  .delete-todo-btn {
+    display: none;
+    position: absolute;
+    right: 0;
+  }
+  &:hover {
+    .delete-todo-btn {
+      display: inline;
+    }
+  }
+}
+mat-flat-button,
+mat-card-footer,
+mat-card-content,
+mat-radio-button {
+  font-family: "Montserrat-regular", sans-serif;
+}
+
+.clear {
+  font-family: "Montserrat-bold", sans-serif;
+  height: auto;
+  border-radius: 22px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+  padding: 0.3em 1em;
+  margin: 5px;
+}
+
+.clear:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  color: black;
+}
+mat-card-footer {
+  font-family: "Montserrat-regular", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  @media screen and (max-width: 375px) {
+    margin-right: 0;
+  }
+}
+
+.filter-container {
+  button {
+    height: auto;
+    border-radius: 22px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition:
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
+    padding: 0.3em 1em;
+    margin: 5px;
+    font-family: "Montserrat-medium", sans-serif;
+    &.active-filter {
+      color: #ffffff;
+      background-color: #007bff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    color: black;
+  }
+  &.filter-container--mobile {
+    margin-top: 1rem;
+  }
+}
+
+mat-list-item:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  color: black;
+}
+.icon-delete {
+  color: red;
+}
