@@ -58,10 +58,12 @@ ng serve
 ```
 
 Abre tu navegador en `http://localhost:4200` para ver la aplicación en ejecución.
+
 <a name="contribuciones"></a>
 ## 🤝 Contribuciones
 
 Si deseas contribuir al proyecto, por favor, revisa las guías de contribución y envía tus pull requests. Todas las contribuciones son bienvenidas.
+
 <a name="buenas-prácticas"></a>
 ## Buenas Prácticas ✨
 
