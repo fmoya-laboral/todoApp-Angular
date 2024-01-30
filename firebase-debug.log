@@ -1,0 +1,14 @@
+[debug] [2024-01-30T15:11:23.542Z] ----------------------------------------------------------------------
+[debug] [2024-01-30T15:11:23.543Z] Command:       /Users/fernandomoya/.nvm/versions/node/v16.14.2/bin/node /Users/fernandomoya/Documents/todoApp/node_modules/.bin/firebase deploy
+[debug] [2024-01-30T15:11:23.543Z] CLI Version:   12.0.1
+[debug] [2024-01-30T15:11:23.543Z] Platform:      darwin
+[debug] [2024-01-30T15:11:23.543Z] Node Version:  v16.14.2
+[debug] [2024-01-30T15:11:23.547Z] Time:          Tue Jan 30 2024 12:11:23 GMT-0300 (Argentina Standard Time)
+[debug] [2024-01-30T15:11:23.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-30T15:11:23.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-30T15:11:23.578Z] > authorizing via signed-in user (fmoya97.fm@gmail.com)
+[debug] [2024-01-30T15:11:23.578Z] [iam] checking project todoapp-ab129 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-30T15:11:23.579Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/todoapp-ab129:testIamPermissions [none]
+[debug] [2024-01-30T15:11:23.579Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/todoapp-ab129:testIamPermissions x-goog-quota-user=projects/todoapp-ab129
+[debug] [2024-01-30T15:11:23.579Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/todoapp-ab129:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
